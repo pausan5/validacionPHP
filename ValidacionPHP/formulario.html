@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="Es-es">
+        <head>
+            <meta charset="utf-8"/>
+            <title>Formulario de validación con PHP</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <form method="post" action="validacion.php">
+                <h2>Formulario validado con PHP</h2>                
+                <label>ID</label>
+                <input type="text" name="ID" required>
+                <label>Nombre</label>
+                <input type="text" name="nombre" required>
+                <label>Apellido</label>
+                <input type="text" name="apellido" required>
+                <label>Email</label>
+                <input type="email" name="email" required>
+                <button type="submit" name="submit" value="Enviar">Enviar</button>
+                
+            </form>
+        </body>
+    </html>
